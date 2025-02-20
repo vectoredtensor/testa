@@ -1,0 +1,21 @@
+swagger: "2.0"
+info:
+  version: "1.0.0"
+  title: "CTF Swagger API"
+  description: "A vulnerable Swagger API for demonstration purposes."
+host: "localhost:8080"
+schemes:
+  - "http"
+paths:
+  /example:
+    get:
+      summary: "Example Endpoint"
+      description: "Click the link to trigger the payload."
+      responses:
+        200:
+          description: "Successful Response"
+          schema:
+            type: "string"
+      externalDocs:
+        description: "Malicious Link"
+        url: "javascript:alert('XSS Exploit')"
