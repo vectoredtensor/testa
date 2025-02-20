@@ -3,7 +3,7 @@ info:
   version: "1.0.0"
   title: "CTF Swagger API"
   description: "payload"
-host: "https://api.mrgreen.com/"
+host: "api.mrgreen.com"
 schemes:
   - "http"
 paths:
