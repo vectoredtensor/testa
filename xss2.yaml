@@ -3,7 +3,7 @@ info:
   version: "1.0.0"
   title: "CTF Swagger API"
   description: "A vulnerable Swagger API for demonstration purposes."
-host: "localhost:8080"
+host: "https://api.mrgreen.com/"
 schemes:
   - "http"
 paths:
